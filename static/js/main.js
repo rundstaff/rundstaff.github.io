@@ -67,7 +67,7 @@ function getCurrentTime() {
   let date = Date.now();
   let dateNow = new Date(date);
   let monthName = " апреля ";
-  if (dateNow.getMonth() == 5) { monthName = " мая " }
+  if (dateNow.getMonth() == 4) { monthName = " мая " }
   let time  = dateNow.getMonth()+monthName
                   //+dateNow.getMonth()+"."
                   +dateNow.getFullYear()+" в "
